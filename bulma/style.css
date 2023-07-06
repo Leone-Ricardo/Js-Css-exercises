@@ -1,0 +1,22 @@
+.paragraph {
+    display: flex;
+    margin-left: -200px;
+}
+
+.titulo {
+    display: flex;
+    margin-left: -200px;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+span {
+    justify-content: space-between;
+    margin-left: 20px;
+}

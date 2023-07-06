@@ -1,0 +1,24 @@
+*{
+    background: #2c3e50;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    background-color: #f1c40f;
+    border: solid 3px black; 
+}
+
+h3{
+    color: #f1c40f;
+}
+
+ul li{
+    color: #fff;
+}
+
+.vermelho{
+    color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Formulário</title>
+</head>
+    <body>
+        <h3>Cadastro da liga dos Astronautas</h3>
+
+        <form>
+          Nome:<input type="text" name="nome" style="margin-bottom: 10px;" required><br>
+          Email:<input type="email" name="email" style="margin-bottom: 10px;" required> - 
+          Senha: <input type="password" name="senha" style="margin-bottom: 10px;" required><br>
+
+          Data de Nascimento: <input type="date" name="data"> - Foto: <input type="file" name="foto" style="margin-bottom: 10px;"><br>
+
+          Nacionalidade: <input list="nacionalidade" name="nacionalidade"> -
+                         <datalist id="nacionalidade">
+                            <option value="Brasil">
+                                <option value="Argentina">
+                                    <option value="Itália">
+                                        <option value="Grécia">
+                         </datalist>
+          
+          Gênero: F <input type="radio" name="genero" style="margin-bottom: 10px;">  M <input type="radio" name="genero" style="margin-bottom: 10px;"><br>
+          
+          Suas principais qualidades: <br>
+          Inteligência <input type="checkbox" name="inteligencia"> │ Resiliência <input type="checkbox" name="resiliencia" │>
+          Preparo físico <input type="checkbox" name="preparo"> │ Educação <input type="checkbox" name="educacao"style="margin-bottom: 10px;">
+
+          <br>
+          
+          <textarea name="area-de-texto" id="" cols="30" rows="10" placeholder="Por que você gostaria de ser um astronauta?" style="margin-bottom: 20px;"></textarea><br>
+
+          <input type="submit" value="Criar">
+          
+        </form>
+    </body>
+</html>
